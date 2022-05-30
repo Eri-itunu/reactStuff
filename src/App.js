@@ -1,8 +1,15 @@
+
+import Main from "../components/Main"
+import Navbar from "../components/Navbar";
+
 export default function App(){
     return(
-        <div>
-            <h1>What is up</h1>
-            <h2>Hello</h2>
+        <div className="container">
+            
+            <Navbar />
+            <Main />
+           
         </div>
     )
 }
+
